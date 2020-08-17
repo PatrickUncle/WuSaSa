@@ -1,13 +1,1 @@
-package com.wusasa;
-
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class WusasaApplicationTests {
-
-    @Test
-    void contextLoads() {
-    }
-
-}
+package com.wusasa;import com.wusasa.utils.CommenUtils;import org.junit.jupiter.api.Test;import org.springframework.boot.test.context.SpringBootTest;@SpringBootTestclass WusasaApplicationTests {    @Test    void contextLoads() {    }    @Test    void random(){        System.out.println(CommenUtils.getRandomId(10));    }}
